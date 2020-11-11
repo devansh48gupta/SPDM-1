@@ -97,19 +97,6 @@ a {
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
-#header {
-  -moz-transition: opacity 2s ease-in-out;
-  -webkit-transition: opacity 2s ease-in-out;
-  -ms-transition: opacity 2s ease-in-out;
-  transition: opacity 2s ease-in-out;
-  position: relative;
-  color: #fff;
-  text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
-  text-align: center;
-  margin: 0;
-  padding: 14em 0 14em 0;
-  cursor: default;
-}
 
 a:hover, a:focus, a:active {
     color: #39b54a;
@@ -1470,7 +1457,19 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     z-index: 500;
 }
 
-
+#header {
+  -moz-transition: opacity 2s ease-in-out;
+  -webkit-transition: opacity 2s ease-in-out;
+  -ms-transition: opacity 2s ease-in-out;
+  transition: opacity 2s ease-in-out;
+  position: relative;
+  color: #fff;
+  text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
+  text-align: center;
+  margin: 0;
+  padding: 14em 0 14em 0;
+  cursor: default;
+}
 /* -------------------------------------------------------------------
  * ## header logo
  * ------------------------------------------------------------------- */
