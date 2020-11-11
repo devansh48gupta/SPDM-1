@@ -84,7 +84,18 @@ body {
     margin: 0;
     padding: 0;
 }
+.mno{
+  font-family: "montserrat-bold", sans-serif;
+  font-size: 4rem;
+  line-height: 1.333;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .25rem;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0;
 
+}
 p{
   color: white;
   font-family: "montserrat-medium", sans-serif;
