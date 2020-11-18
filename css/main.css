@@ -3541,7 +3541,7 @@ html.no-csstransitions .home-content__main {
         padding-bottom: 0;
     }
     .contact__line {
-        height: 14.4rem;
+        height: 0rem;
         top: -7.2rem;
     }
     .contact-content {
