@@ -1513,6 +1513,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     .s-clients {
         padding-bottom: 17.4rem;
     }
+	.s-clants {
+        padding-bottom: 1rem;
+    }
     .section-header.has-bottom-sep::before {
         width: 400px;
     }
@@ -1607,7 +1610,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
   text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
   text-align: center;
   margin: 0;
-  padding: 14em 0 14em 0;
+  padding: 14em 0 1em 0;
   cursor: default;
 }
 /* -------------------------------------------------------------------
@@ -2917,6 +2920,13 @@ html.no-csstransitions .home-content__main {
     color: #757575;
     position: relative;
 }
+.s-clants {
+    padding-top: 1.2rem;
+    padding-bottom: 1.8rem;
+    background-color: #111111;
+    color: #757575;
+    position: relative;
+}
 
 
 /* -------------------------------------------------------------------
@@ -3152,6 +3162,9 @@ html.no-csstransitions .home-content__main {
 @media only screen and (max-width: 600px) {
     .s-clients {
         padding-top: 12rem;
+    }
+	.s-clants {
+        padding-top: 1rem;
     }
     .clients-testimonials::before {
         width: 250px;
