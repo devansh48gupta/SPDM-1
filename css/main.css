@@ -72,6 +72,16 @@ html {
 html, body {
     height: 100%;
 }
+.sketchfab-embed-wrapper
+{
+  height: 50rem;
+  width: auto;
+  text-align: center;
+}
+.tdm{
+  height: 70%;
+  width: 85%;
+}
 
 body {
     background: #111111;
